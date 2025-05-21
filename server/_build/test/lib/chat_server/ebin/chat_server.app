@@ -1,0 +1,11 @@
+{application,chat_server,
+             [{modules,['Elixir.ChatServer','Elixir.ChatServer.ChatRoom',
+                        'Elixir.ChatServer.ChatRoom.Supervisor',
+                        'Elixir.ChatServer.MessageStore',
+                        'Elixir.ChatServer.UserManager']},
+              {optional_applications,[]},
+              {applications,[kernel,stdlib,elixir,logger,uuid]},
+              {description,"chat_server"},
+              {registered,[]},
+              {vsn,"0.1.0"},
+              {mod,{'Elixir.ChatServer',[]}}]}.

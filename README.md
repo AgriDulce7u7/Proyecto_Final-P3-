@@ -77,7 +77,7 @@ Para ejecutar la aplicación en modo local (en la misma máquina):
 2. En otra terminal, inicia el cliente:
    ```cmd
    cd client
-   iex --name client@127.0.0.1 --cookie chat_cookie -S mix
+   iex --name client1@127.0.0.1 --cookie chat_cookie -S mix
    ```
 
 3. En la consola IEx del cliente, ejecuta:

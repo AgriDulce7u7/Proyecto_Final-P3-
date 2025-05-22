@@ -40,9 +40,8 @@ Proyecto_Final-P3-/
 
 ## Instalación
 
-1. Clona este repositorio:
+1. Navega hacia la carpeta del proyecto:
    ```
-   git clone https://github.com/usuario/Proyecto_Final-P3-.git
    cd Proyecto_Final-P3-
    ```
 
@@ -65,13 +64,13 @@ Proyecto_Final-P3-/
 Para ejecutar la aplicación en modo local (en la misma máquina):
 
 1. Inicia el servidor:
-   ```bash
+   ```cmd
    cd server
    iex --name server@127.0.0.1 --cookie chat_cookie -S mix
    ```
 
 2. En otra terminal, inicia el cliente:
-   ```bash
+   ```cmd
    cd client
    iex --name client@127.0.0.1 --cookie chat_cookie -S mix
    ```
@@ -91,14 +90,14 @@ Para ejecutar la aplicación en modo local (en la misma máquina):
 Para ejecutar la aplicación en modo remoto (diferentes máquinas):
 
 1. En la máquina servidor, ejecuta:
-   ```bash
+   ```cmd
    cd server
    iex --name server@IP_SERVIDOR --cookie chat_cookie -S mix
    ```
    (Reemplaza IP_SERVIDOR con la dirección IP de la máquina servidor)
 
 2. En la máquina cliente, ejecuta:
-   ```bash
+   ```cmd
    cd client
    iex --name client@IP_CLIENTE --cookie chat_cookie -S mix
    ```

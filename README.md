@@ -63,6 +63,11 @@ Proyecto_Final-P3-/
 
 Para ejecutar la aplicación en modo local (en la misma máquina):
 
+0. Navega hacia la carpeta del proyecto:
+   ```
+   cd Proyecto_Final-P3-
+   ```
+
 1. Inicia el servidor:
    ```cmd
    cd server
